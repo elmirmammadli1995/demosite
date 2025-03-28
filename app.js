@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(document).on("keypress", function (e) {
         if (e.which == 13) {
-            let url = `https://apidemo-rose.vercel.app/api/news`
+            let url = `https://apidemoo.vercel.app/api/news`
             async function mynews() {
                 let responce = await fetch(url);
                 let data = await responce.json();
